@@ -14,11 +14,11 @@
 		<string>github.com:ga-students/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Classwork/Week 2/Lesson03.playground</string>
+	<string>Lessons/Lesson03/Lesson03-Code/Lesson03.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:ga-students/MOB-DC-3.git</string>
