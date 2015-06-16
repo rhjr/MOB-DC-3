@@ -97,9 +97,15 @@
                                     <rect key="frame" x="57" y="362" width="30" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="gy9-xK-51z" kind="presentation" id="wDE-un-qKN"/>
+                                    <segue destination="gy9-xK-51z" kind="show" id="wDE-un-qKN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20140924_210138.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lHE-aY-KHu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="51" y="114" width="240" height="240"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8p-Fs-jId">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Goals">
@@ -109,31 +115,25 @@
                                     <rect key="frame" x="217" y="362" width="40" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="gy9-xK-51z" kind="push" id="3qz-Q0-FMm"/>
+                                    <segue destination="RoX-7w-o2S" kind="show" id="F4D-n0-qyk"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20140924_210138.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lHE-aY-KHu">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="51" y="114" width="240" height="240"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="qqu-Fi-BsR"/>
                                 <exclude reference="ihU-k7-4Ja"/>
-                                <exclude reference="g8p-Fs-jId"/>
                                 <exclude reference="lHE-aY-KHu"/>
+                                <exclude reference="g8p-Fs-jId"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="qqu-Fi-BsR"/>
                                 <include reference="ihU-k7-4Ja"/>
-                                <include reference="g8p-Fs-jId"/>
                                 <include reference="lHE-aY-KHu"/>
+                                <include reference="g8p-Fs-jId"/>
                             </mask>
                         </variation>
                     </view>
@@ -164,6 +164,37 @@
                                     <rect key="frame" x="0.0" y="47" width="400" height="157"/>
                                 </variation>
                             </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eJU-Bk-qBA"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="eJU-Bk-qBA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="ZuE-st-R54"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ygg-La-a3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="-1155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hup-cA-iox">
+            <objects>
+                <viewController id="RoX-7w-o2S" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mDN-bP-G1P"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oc-2z-HNv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JrB-X2-oDg">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="To Learn ios programming as much as I can. I believe I have some great Ideals." translatesAutoresizingMaskIntoConstraints="NO" id="6uv-8X-fuP">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -171,37 +202,35 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="248" width="240" height="128"/>
+                                    <rect key="frame" x="30" y="14" width="240" height="128"/>
                                 </variation>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White-Walker-cosplay-1-e1351822590207.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KaJ-Il-8TW">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="22" y="384" width="240" height="196"/>
+                                    <rect key="frame" x="30" y="180" width="240" height="196"/>
                                 </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="eJU-Bk-qBA"/>
                                 <exclude reference="6uv-8X-fuP"/>
                                 <exclude reference="KaJ-Il-8TW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="eJU-Bk-qBA"/>
                                 <include reference="6uv-8X-fuP"/>
                                 <include reference="KaJ-Il-8TW"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="ZuE-st-R54"/>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ygg-La-a3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJr-PA-XoN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-123" y="-1155"/>
+            <point key="canvasLocation" x="561" y="-1061"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o8i-s6-H59">
@@ -224,7 +253,4 @@
         <image name="20140924_210138.jpg" width="1080" height="1920"/>
         <image name="White-Walker-cosplay-1-e1351822590207.jpg" width="600" height="783"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="wDE-un-qKN"/>
-    </inferredMetricsTieBreakers>
 </document>

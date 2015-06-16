@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15364F511B2F82EA00F734EF /* 20140924_210138.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15364F501B2F82EA00F734EF /* 20140924_210138.jpg */; };
-		15364F531B2F893900F734EF /* White-Walker-cosplay-1-e1351822590207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15364F521B2F893900F734EF /* White-Walker-cosplay-1-e1351822590207.jpg */; };
 		156990561B2E0CA6008F0A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156990551B2E0CA6008F0A58 /* AppDelegate.swift */; };
 		156990581B2E0CA6008F0A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156990571B2E0CA6008F0A58 /* ViewController.swift */; };
 		1569905B1B2E0CA6008F0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156990591B2E0CA6008F0A58 /* Main.storyboard */; };
 		1569905D1B2E0CA6008F0A58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1569905C1B2E0CA6008F0A58 /* Images.xcassets */; };
 		156990601B2E0CA6008F0A58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1569905E1B2E0CA6008F0A58 /* LaunchScreen.xib */; };
 		1569906C1B2E0CA6008F0A58 /* Homework_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1569906B1B2E0CA6008F0A58 /* Homework_1Tests.swift */; };
+		15E1F5141B30D8FF0091B068 /* White-Walker-cosplay-1-e1351822590207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15E1F5131B30D8FE0091B068 /* White-Walker-cosplay-1-e1351822590207.jpg */; };
+		15E1F5161B30D90F0091B068 /* 20140924_210138.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15E1F5151B30D90F0091B068 /* 20140924_210138.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15364F501B2F82EA00F734EF /* 20140924_210138.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 20140924_210138.jpg; path = ../../../Downloads/20140924_210138.jpg; sourceTree = "<group>"; };
-		15364F521B2F893900F734EF /* White-Walker-cosplay-1-e1351822590207.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "White-Walker-cosplay-1-e1351822590207.jpg"; path = "../../../Downloads/White-Walker-cosplay-1-e1351822590207.jpg"; sourceTree = "<group>"; };
 		156990501B2E0CA6008F0A58 /* Homework#1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework#1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156990541B2E0CA6008F0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156990551B2E0CA6008F0A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		156990651B2E0CA6008F0A58 /* Homework#1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework#1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1569906A1B2E0CA6008F0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1569906B1B2E0CA6008F0A58 /* Homework_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_1Tests.swift; sourceTree = "<group>"; };
+		15E1F5131B30D8FE0091B068 /* White-Walker-cosplay-1-e1351822590207.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White-Walker-cosplay-1-e1351822590207.jpg"; sourceTree = "<group>"; };
+		15E1F5151B30D90F0091B068 /* 20140924_210138.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20140924_210138.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +83,10 @@
 			children = (
 				156990551B2E0CA6008F0A58 /* AppDelegate.swift */,
 				156990571B2E0CA6008F0A58 /* ViewController.swift */,
+				15E1F5131B30D8FE0091B068 /* White-Walker-cosplay-1-e1351822590207.jpg */,
 				156990591B2E0CA6008F0A58 /* Main.storyboard */,
-				15364F521B2F893900F734EF /* White-Walker-cosplay-1-e1351822590207.jpg */,
+				15E1F5151B30D90F0091B068 /* 20140924_210138.jpg */,
 				1569905C1B2E0CA6008F0A58 /* Images.xcassets */,
-				15364F501B2F82EA00F734EF /* 20140924_210138.jpg */,
 				1569905E1B2E0CA6008F0A58 /* LaunchScreen.xib */,
 				156990531B2E0CA6008F0A58 /* Supporting Files */,
 			);
@@ -200,8 +200,8 @@
 			files = (
 				1569905B1B2E0CA6008F0A58 /* Main.storyboard in Resources */,
 				156990601B2E0CA6008F0A58 /* LaunchScreen.xib in Resources */,
-				15364F511B2F82EA00F734EF /* 20140924_210138.jpg in Resources */,
-				15364F531B2F893900F734EF /* White-Walker-cosplay-1-e1351822590207.jpg in Resources */,
+				15E1F5141B30D8FF0091B068 /* White-Walker-cosplay-1-e1351822590207.jpg in Resources */,
+				15E1F5161B30D90F0091B068 /* 20140924_210138.jpg in Resources */,
 				1569905D1B2E0CA6008F0A58 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
