@@ -69,6 +69,7 @@
                         <viewControllerLayoutGuide type="bottom" id="J1g-HF-lHJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ydm-SF-XKf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DP-mx-CcM">
@@ -137,6 +138,7 @@
                         <viewControllerLayoutGuide type="bottom" id="kgg-qh-gz2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l0d-sm-EBM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9d28b2597cd07eded7d1f987ebcd9c0c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J6Z-Sx-oDL">
@@ -172,6 +174,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cqT-gK-RQ0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PaK-rN-ybP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
