@@ -32,10 +32,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Radio View Controller-->
         <scene sceneID="2tO-as-JQS">
             <objects>
-                <viewController id="DtW-oF-Bza" sceneMemberID="viewController">
+                <viewController id="DtW-oF-Bza" customClass="RadioViewController" customModule="Lesson11_Notifications" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jns-Tf-8D2"/>
                         <viewControllerLayoutGuide type="bottom" id="9ai-5b-rNA"/>
@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ani-Jx-1fg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1389" y="390"/>
+            <point key="canvasLocation" x="1520" y="335"/>
         </scene>
     </scenes>
 </document>

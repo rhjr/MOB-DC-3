@@ -13,7 +13,6 @@
 		8EE30C8E1B4DEB8E00FB359F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE30C8D1B4DEB8E00FB359F /* Images.xcassets */; };
 		8EE30C911B4DEB8E00FB359F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE30C8F1B4DEB8E00FB359F /* LaunchScreen.xib */; };
 		8EE30C9D1B4DEB8E00FB359F /* Lesson11_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE30C9C1B4DEB8E00FB359F /* Lesson11_NotificationsTests.swift */; };
-		8EE30CA71B4DEBAE00FB359F /* X.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE30CA61B4DEBAE00FB359F /* X.swift */; };
 		8EE30CA91B4DEF3200FB359F /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE30CA81B4DEF3200FB359F /* RadioViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		8EE30C961B4DEB8E00FB359F /* Lesson11-NotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson11-NotificationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE30C9B1B4DEB8E00FB359F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE30C9C1B4DEB8E00FB359F /* Lesson11_NotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_NotificationsTests.swift; sourceTree = "<group>"; };
-		8EE30CA61B4DEBAE00FB359F /* X.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = X.swift; sourceTree = "<group>"; };
 		8EE30CA81B4DEF3200FB359F /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 			children = (
 				8EE30C861B4DEB8E00FB359F /* AppDelegate.swift */,
 				8EE30C881B4DEB8E00FB359F /* ViewController.swift */,
-				8EE30CA61B4DEBAE00FB359F /* X.swift */,
 				8EE30CA81B4DEF3200FB359F /* RadioViewController.swift */,
 				8EE30C8A1B4DEB8E00FB359F /* Main.storyboard */,
 				8EE30C8D1B4DEB8E00FB359F /* Images.xcassets */,
@@ -221,7 +218,6 @@
 				8EE30C891B4DEB8E00FB359F /* ViewController.swift in Sources */,
 				8EE30C871B4DEB8E00FB359F /* AppDelegate.swift in Sources */,
 				8EE30CA91B4DEF3200FB359F /* RadioViewController.swift in Sources */,
-				8EE30CA71B4DEBAE00FB359F /* X.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +413,7 @@
 				8EE30CA21B4DEB8E00FB359F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EE30CA31B4DEB8E00FB359F /* Build configuration list for PBXNativeTarget "Lesson11-NotificationsTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +422,7 @@
 				8EE30CA51B4DEB8E00FB359F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
